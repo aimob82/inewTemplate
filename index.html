@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>My index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile.css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.mobile.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+
+        <div data-role="header"><h1 class="ic-logo"></h1></div><!-- /header -->
+
+        <div data-role="content">
+            <div class="ic-title">
+                <span id="club-name"></span>
+                <i>/</i>
+                <a href="#"> 专栏</a>
+                <a href="#" class="login">登录</a>
+            </div>
+
+            <div class="ic-newlist">
+                <h2 id="title" class="ic-newlist-title"></h2>
+                <p id="source" class="ic-newlist-info"></p>
+                <p id="img" class="ic-newlist-content"><img src="img/test.png" /></p>
+                <p class="ic-newlist-btn">
+                    <a id="source-link" href="#" class="ic-btn ic-read">点击阅读原文</a>
+                </p>
+                <p><strong>分享微博</strong></p>
+                <p class="ic-newlist-btn">
+                    <a id="sina-weibo" href="/inews/sinaweibo/forward" class="ic-sina" title="分享到新浪微博">新浪微博</a>
+                    <a id="tencent-weibo" href="/inews/tencentweibo/forward" class="ic-tencent" title="分享到腾讯微博">腾讯微博</a>
+                </p>
+            </div>
+    </div>
+</body>
+</html>
